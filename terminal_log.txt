@@ -1,0 +1,89 @@
+    1  cat ~/.ssh/authorized_keys
+    2  ssh-keygen -t ed25519 -f ~/.ssh/ikt114
+    3  ls -la ~/.ssh/authorized_keys
+    4  cat ~/.ssh/ikt114.pub >> ~/.ssh/authorized_keys
+    5  chmod 700 ~/.ssh
+    6  chmod 600 ~/.ssh/authorized_keys
+    7  ls -la ~/.ssh/authorized_keys
+    8  cat ~/.ssh/authorized_keys
+    9  sudo visudo -f /etc/sudoers.d/yrsaid18
+   10  sudo apt update
+   11  sudo apt upgrade
+   12  sudo reboot
+   13  ls
+   14  ls
+   15  bash --version
+   16  docker --version
+   17  docker compose version
+   18  vagrant --version
+   19  sudo apt install -y shellcheck
+   20  sudo apt install -y docker.io
+   21  docker --version
+   22  docker compose version
+   23  sudo apt install -y docker-compose-plugin
+   24  sudo apt install -y vagrant
+   25  sudo systemctl start docker
+   26  sudo docker run hello-world
+   27  docker --version
+   28  docker compose version
+   29  sudo apt update
+   30  sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   31  sudo chmod +x /usr/local/bin/docker-compose
+   32  docker-compose --version
+   33  sudo docker run hello-world
+   34  vagrant --version
+   35  curl -O https://releases.hashicorp.com/vagrant/2.3.4/vagrant_2.3.4_linux_amd64.deb
+   36  sudo apt install ./vagrant_2.3.4_linux_amd64.deb
+   37  rm vagrant_2.3.4_linux_amd64.deb
+   38  curl -O https://releases.hashicorp.com/vagrant/2.3.4/vagrant_2.3.4_linux_amd64.deb
+   39  sudo apt install ./vagrant_2.3.4_linux_amd64.deb
+   40  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+   41  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+   42  sudo apt update
+   43  vagrant --version
+   44  apt install vagrant
+   45  sudo apt install vagrant
+   46  vagrant --version
+   47  docker --version
+   48  docker compose version
+   49  docker-compose --version
+   50  docker --version
+   51  vagrant --version
+   52  mkdir ~/shell_scripting_lab
+   53  cd ~/shell_scripting_lab
+   54  `ls
+   55  ls
+   56  install.sh
+   57  ls
+   58  touch install.sh
+   59  chmod +x install.sh
+   60  ls
+   61  ./install.sh
+   62  ./install.sh --verbose
+   63  shellcheck install.sh
+   64  install.sh
+   65  clear
+   66  ./install.sh
+   67  cd shell_scripting_lab/
+   68  ./install.sh
+   69  sudo systemctl status docker
+   70  sudo journalctl -xeu docker.service
+   71  cat /etc/docker/daemon.json
+   72  echo '{}' | sudo tee /etc/docker/daemon.json
+   73  sudo systemctl restart docker
+   74  sudo systemctl daemon-reload
+   75  sudo systemctl restart docker
+   76  sudo systemctl status docker
+   77  sudo apt install --reinstall -y docker.io containerd runc
+   78  sudo systemctl restart docker
+   79  sudo journalctl -xeu docker.service
+   80  sudo systemctl restart containerd
+   81  sudo systemctl restart docker
+   82  sudo docker run hello-world
+   83  ./install.sh 
+   84  sudo systemctl status docker
+   85  ./install.sh
+   86  sudo systemctl status docker
+   87  sudo docker run hello-world
+   88  sudo systemctl status docker
+   89  history > terminal_log.txt

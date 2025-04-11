@@ -1,0 +1,813 @@
+Feb 09 14:11:03 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 1545.
+Feb 09 14:11:03 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:03.841478530Z" level=info msg="Starting up"
+Feb 09 14:11:03 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:03.843476579Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 09 14:11:13 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:13.990889640Z" level=info msg="Loading containers: start."
+Feb 09 14:11:40 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:40.705975924Z" level=info msg="Loading containers: done."
+Feb 09 14:11:55 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:55.409944617Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 09 14:11:55 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:11:55.410448135Z" level=info msg="Daemon has completed initialization"
+Feb 09 14:12:01 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:12:01.469863481Z" level=info msg="API listen on /run/docker.sock"
+Feb 09 14:12:01 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 1545.
+Feb 09 14:15:15 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:15:15.764012045Z" level=info msg="ignoring event" container=0a6210a8b018b709b20c4592fa48aefeaa1d84627c702aff7d7c16ef5b1bc3f9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Feb 09 14:17:53 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T14:17:53.377973144Z" level=info msg="ignoring event" container=6a04cee599849b369b13905baf10c0bac57346718bb3920f917e75f3ff188e7f module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 4359.
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T15:43:44.040875554Z" level=info msg="Processing signal 'terminated'"
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T15:43:44.043729369Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T15:43:44.044844316Z" level=info msg="Daemon shutdown complete"
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[1741]: time="2025-02-09T15:43:44.045029724Z" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 4359 and the job result is done.
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Consumed 2.930s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service completed and consumed the indicated resources.
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 4359.
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:44.220977574Z" level=info msg="Starting up"
+Feb 09 15:43:44 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:44.223314197Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 09 15:43:53 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:53.767671454Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 09 15:43:53 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:53.770133834Z" level=info msg="Loading containers: start."
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:56.105509548Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:56.226526257Z" level=info msg="Loading containers: done."
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:56.473903881Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:56.474027574Z" level=info msg="Daemon has completed initialization"
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-09T15:43:56.531193600Z" level=info msg="API listen on /run/docker.sock"
+Feb 09 15:43:56 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 4359.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 104995.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-14T09:19:19.131001588Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-14T09:19:19.135427407Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 dockerd[4665]: time="2025-02-14T09:19:19.136904854Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 104995 and the job result is done.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Consumed 2min 2.959s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service completed and consumed the indicated resources.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 104995.
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:19.285244063Z" level=info msg="Starting up"
+Feb 14 09:19:19 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:19.287345623Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:19:42 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:42.496733436Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:19:42 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:42.499467848Z" level=info msg="Loading containers: start."
+Feb 14 09:19:43 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:43.974845927Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:19:44 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:44.151018625Z" level=info msg="Loading containers: done."
+Feb 14 09:19:44 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:44.561080996Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:19:44 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:44.561342207Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:19:44 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:19:44.655208611Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:19:44 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 104995.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 105694.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:34:42.319812872Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:34:42.322838671Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 dockerd[18554]: time="2025-02-14T09:34:42.324159464Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 105694 and the job result is done.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Consumed 1.080s CPU time.
+░░ Subject: Resources consumed by unit runtime
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service completed and consumed the indicated resources.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 105694.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 dockerd[19379]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:34:42 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 105694 and the job result is failed.
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 105812.
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 dockerd[19407]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:34:44 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 105812 and the job result is failed.
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 105930.
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 dockerd[19421]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:34:46 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 105930 and the job result is failed.
+Feb 14 09:34:49 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:34:49 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Start request repeated too quickly.
+Feb 14 09:34:49 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:34:49 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 106048 and the job result is failed.
+Feb 14 09:37:09 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106166.
+Feb 14 09:37:16 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:09.240597654Z" level=info msg="Starting up"
+Feb 14 09:37:16 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:09.242284084Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:37:23 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:23.008454314Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:37:23 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:23.010998948Z" level=info msg="Loading containers: start."
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:25.660597093Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:25.809818843Z" level=info msg="Loading containers: done."
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:25.874203704Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:25.874320663Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:25.946504637Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:37:25 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 106166.
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106284.
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:57.164005046Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:57.165690255Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:57.166996360Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[19709]: time="2025-02-14T09:37:57.167230901Z" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 106284 and the job result is done.
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106284.
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:37:57.304780377Z" level=info msg="Starting up"
+Feb 14 09:37:57 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:37:57.306729672Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:38:02 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:02.291578046Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:38:02 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:02.293592133Z" level=info msg="Loading containers: start."
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:08.669933235Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:08.845436914Z" level=info msg="Loading containers: done."
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:08.906034625Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:08.906186049Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:38:08.985275574Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:38:08 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 106284.
+Feb 14 09:39:05 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:05.943312649Z" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = error reading from server: EOF" module=libcontainerd namespace=plugins.moby
+Feb 14 09:39:05 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:05.943811987Z" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=plugins.moby
+Feb 14 09:39:05 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:05.943314483Z" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = error reading from server: EOF" module=libcontainerd namespace=moby
+Feb 14 09:39:05 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:05.943945489Z" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=moby
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106634.
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:46.020960001Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:46.024504213Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 dockerd[20067]: time="2025-02-14T09:39:46.026125351Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 106634 and the job result is done.
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106634.
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:46.178706345Z" level=info msg="Starting up"
+Feb 14 09:39:46 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:46.180156471Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:39:48 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:48.173957629Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:39:48 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:48.176040646Z" level=info msg="Loading containers: start."
+Feb 14 09:39:48 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:48.704275716Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:39:48 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:39:48.864930227Z" level=info msg="Loading containers: done."
+Feb 14 09:40:01 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:40:01.312675199Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:40:01 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:40:01.312890404Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:40:01 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:40:01.384287336Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:40:01 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 106634.
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:41:11.269431319Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:41:11.271368621Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 dockerd[20974]: time="2025-02-14T09:41:11.271890803Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106985.
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 106985 and the job result is done.
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 106985.
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:11.417187691Z" level=info msg="Starting up"
+Feb 14 09:41:11 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:11.419540775Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:41:12 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:12.634295802Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:41:12 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:12.636477123Z" level=info msg="Loading containers: start."
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:16.411429586Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:16.561289053Z" level=info msg="Loading containers: done."
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:16.639215669Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:16.639369438Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:16.714840117Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:41:16 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 106985.
+Feb 14 09:41:44 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:44.541789264Z" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = error reading from server: EOF" module=libcontainerd namespace=plugins.moby
+Feb 14 09:41:44 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:44.541964994Z" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=plugins.moby
+Feb 14 09:41:44 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:44.541957150Z" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = error reading from server: EOF" module=libcontainerd namespace=moby
+Feb 14 09:41:44 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:44.542171513Z" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=moby
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107219.
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:49.640722377Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:49.642757733Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 dockerd[21433]: time="2025-02-14T09:41:49.643779153Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 107219 and the job result is done.
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107219.
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:41:49.751983299Z" level=info msg="Starting up"
+Feb 14 09:41:49 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:41:49.753302630Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:41:54 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:41:54.847080028Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:41:54 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:41:54.848930166Z" level=info msg="Loading containers: start."
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:04.707728529Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:04.863494838Z" level=info msg="Loading containers: done."
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:04.920215910Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:04.920361122Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:04.995363151Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:42:04 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 107219.
+Feb 14 09:42:11 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:42:11.982037070Z" level=info msg="ignoring event" container=6bbc230843ca85702fc7ac44b7ff2a0a3e647d873c96328708a0b57d0eb75589 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107573.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:43:43.758819982Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:43:43.760252015Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 dockerd[21748]: time="2025-02-14T09:43:43.760750933Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 107573 and the job result is done.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107573.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 dockerd[22554]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:43:43 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 107573 and the job result is failed.
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107691.
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 dockerd[22576]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:43:46 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 107691 and the job result is failed.
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 107809.
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 dockerd[22598]: unable to configure the Docker daemon with file /etc/docker/daemon.json: invalid character '}' looking for beginning of value
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit docker.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:43:48 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 107809 and the job result is failed.
+Feb 14 09:43:50 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ Automatic restarting of the unit docker.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Feb 14 09:43:50 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Start request repeated too quickly.
+Feb 14 09:43:50 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has entered the 'failed' state with result 'exit-code'.
+Feb 14 09:43:50 ikt114-g-25v-yrsaid18 systemd[1]: Failed to start docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished with a failure.
+░░ 
+░░ The job identifier is 107927 and the job result is failed.
+Feb 14 09:45:51 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 108277.
+Feb 14 09:45:51 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:45:51.632695164Z" level=info msg="Starting up"
+Feb 14 09:45:51 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:45:51.635132596Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:46:29 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:29.196126107Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:46:44 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:29.199684627Z" level=info msg="Loading containers: start."
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:45.466041204Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:45.628181443Z" level=info msg="Loading containers: done."
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:45.692026006Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:45.692343983Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:46:45.768543221Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:46:45 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 108277.
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 108859.
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:49:06.236384460Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:49:06.242109052Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 dockerd[23008]: time="2025-02-14T09:49:06.243375111Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 108859 and the job result is done.
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 108859.
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:06.393122763Z" level=info msg="Starting up"
+Feb 14 09:49:06 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:06.395469274Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:49:11 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:11.789399063Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:49:11 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:11.792386228Z" level=info msg="Loading containers: start."
+Feb 14 09:49:13 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:13.806388508Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:49:13 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:13.963352074Z" level=info msg="Loading containers: done."
+Feb 14 09:49:14 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:14.053636440Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:49:14 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:14.053776324Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:49:14 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:14.129315580Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:49:14 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 108859.
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 systemd[1]: Stopping docker.service - Docker Application Container Engine...
+░░ Subject: A stop job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 109209.
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:28.094999404Z" level=info msg="Processing signal 'terminated'"
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:28.097210671Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 dockerd[24130]: time="2025-02-14T09:49:28.097721551Z" level=info msg="Daemon shutdown complete"
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 systemd[1]: docker.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit docker.service has successfully entered the 'dead' state.
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 systemd[1]: Stopped docker.service - Docker Application Container Engine.
+░░ Subject: A stop job for unit docker.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit docker.service has finished.
+░░ 
+░░ The job identifier is 109209 and the job result is done.
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 systemd[1]: Starting docker.service - Docker Application Container Engine...
+░░ Subject: A start job for unit docker.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has begun execution.
+░░ 
+░░ The job identifier is 109209.
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:28.197671247Z" level=info msg="Starting up"
+Feb 14 09:49:28 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:28.201590785Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Feb 14 09:49:30 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:30.840215424Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Feb 14 09:49:30 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:30.842012152Z" level=info msg="Loading containers: start."
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:31.416279508Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:31.569405490Z" level=info msg="Loading containers: done."
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:31.646751333Z" level=info msg="Docker daemon" commit="26.1.3-0ubuntu1~24.04.1" containerd-snapshotter=false storage-driver=overlay2 version=26.1.3
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:31.646907296Z" level=info msg="Daemon has completed initialization"
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:49:31.719854420Z" level=info msg="API listen on /run/docker.sock"
+Feb 14 09:49:31 ikt114-g-25v-yrsaid18 systemd[1]: Started docker.service - Docker Application Container Engine.
+░░ Subject: A start job for unit docker.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit docker.service has finished successfully.
+░░ 
+░░ The job identifier is 109209.
+Feb 14 09:50:07 ikt114-g-25v-yrsaid18 dockerd[24686]: time="2025-02-14T09:50:07.526945942Z" level=info msg="ignoring event" container=e76f8135f27bfba3b80bc03c4f5bbc44b07489a96a04c5032775414def18d464 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
