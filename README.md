@@ -152,7 +152,7 @@ exercise-01-shell-scripting/
 
 ### High-Level Flow
 
-<img width="600" alt="Shell Scripting 01" src="https://github.com/user-attachments/assets/73569e79-d94e-4539-ab7c-912d850516ed" />
+<img width="900" alt="Shell Scripting 01" src="https://github.com/user-attachments/assets/73569e79-d94e-4539-ab7c-912d850516ed" />
 
 *Figure 1: Shell script workflow showing the complete automation process from OS detection to final configuration.*
 
