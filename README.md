@@ -1,4 +1,4 @@
-# Exercise 01 - Shell Scripting
+# Shell Scripting
 
 This project demonstrates comprehensive shell scripting for automated Linux system configuration across multiple distributions. The script automates Docker and Docker Compose installation, user and group management, network configuration, and system setup with cross-platform compatibility for Debian, AlmaLinux, and Alpine Linux.
 
